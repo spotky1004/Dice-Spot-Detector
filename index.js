@@ -56,7 +56,7 @@ function calcSpot(imageSrc, callback) {
     }
 }
 
-calcSpot("./img.png",function(count){
+calcSpot("./DiceImg/img" + Math.floor(Math.random()*10) + ".png",function(count){
   console.log(count);
 });
 
